@@ -51,16 +51,23 @@
 							</div>
 						</article>
 					</div>
+					
+					<div class="footer-div">
+					Meta &nbsp;&nbsp;&nbsp;&nbsp; 소개 &nbsp;&nbsp;&nbsp;&nbsp; 블로그 &nbsp;&nbsp;&nbsp;&nbsp; 
+					채용 정보 &nbsp;&nbsp;&nbsp;&nbsp; 도움말 &nbsp;&nbsp;&nbsp;&nbsp; API &nbsp;&nbsp;&nbsp;&nbsp; 
+					개인정보처리방침 &nbsp;&nbsp;&nbsp;&nbsp; 약관 &nbsp;&nbsp;&nbsp;&nbsp; 인기 &nbsp;&nbsp;&nbsp;&nbsp; 
+					계정 &nbsp;&nbsp;&nbsp;&nbsp; 해시태그 &nbsp;&nbsp;&nbsp;&nbsp; 위치 &nbsp;&nbsp;&nbsp;&nbsp; 
+					Instagram Lite &nbsp;&nbsp;&nbsp;&nbsp; 연락처 &nbsp;&nbsp;&nbsp;&nbsp; 업로드&비사용자
+					</div>
+					<div class="footer-div2">© 2022 Instagram from Meta</div>
+					
 				</form>
 			</div>
 		</div>
 	</div>
 	
-	
-	
-	
 
-		
+	
 
 </body>
 </html>

@@ -6,8 +6,9 @@
 }
 
 .signIn-img {
-	width: 600px;
+	width: 580px;
 	height: 500px;
+
 }
 
 
@@ -61,3 +62,15 @@ hr {
 	background-color: #fee2f3;
 }
 
+.footer-div {
+	font-size: 13px;
+	color: gray;
+	margin-top: 150px;
+}
+
+.footer-div2 {
+	font-size: 13px;
+	color: gray;
+	margin-left: 380px;
+	margin-top: 30px;
+}
