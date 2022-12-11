@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.signUp-login-img {
+	width: 360px;
+	
+}
+
+.signUp-input {
+	width: 350px;
+	height: 45px;
+	margin-left: 10px;
+}
+
+.signUp-div1 {
+	font-size: 20px;
+	color: #a4a4a4;
+	text-align: center;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.signUp-div2 {
+	font-size: 13px;
+	color: #c5c5c5;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.signUp-div {
+	width:300px;
+	height: 50px;
+}
+
+.signUp-span {
+	margin-left: 100px;
+	font-size: 20px;
+	color: #acacac;
+}
+#signUpBtn {
+	background-color: #c8f7ff;
+}
+
+#goSignInBtn {
+	font-size: 18px;
+	background-color: #fee2f3;
+}
+

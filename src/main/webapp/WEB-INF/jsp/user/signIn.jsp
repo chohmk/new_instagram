@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>로그인 페이지</title>
 </head>
 <!-- jquery : bootstrap, datepicker -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
