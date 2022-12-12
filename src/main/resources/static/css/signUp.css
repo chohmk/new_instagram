@@ -45,3 +45,15 @@
 	background-color: #fee2f3;
 }
 
+.signUp-inputId {
+	margin-left: 10px;
+}
+
+#loginIdCheckBtn {
+	margin-left: 10px;
+	width: 73px;
+	height: 40px;
+	font-size: 13px;
+}
+
+

@@ -38,8 +38,8 @@
 						<article >
 							<div class="signIn-login bg-white">
 								<img class="signIn-login-img" src="https://fontmeme.com/images/instagram-new-logo.png">
-								<input type="text" class="login-input form-control" placeholder="아이디">
-								<input type="password" class="login-input form-control mt-2" placeholder="비밀번호">
+								<input type="text" id="loginId" name="loginId" class="login-input form-control" placeholder="아이디">
+								<input type="password" id="password" name="password" class="login-input form-control mt-2" placeholder="비밀번호">
 								
 								<button type="submit" id="loginBtn" class="login-input btn mt-3">로그인</button>
 								
@@ -65,6 +65,40 @@
 			</div>
 		</div>
 	</div>
+	
+	<script>
+		$(document).ready(function() {
+			$('#loginForm').on('submit', function(e) {
+				e.preventDefault();
+				
+				// validation
+				let loginId = $('#loginId').val().trim();
+				let password = $('#password').val().trim();
+				
+				if (loginId == "") {
+					alert("아이디를 입력하세요");
+					return false;
+				}
+				
+				if (password == "") {
+					alert("비밀번호를 입력하세요.");
+					return false;
+				} // validtaion 끝
+				
+				// ajax
+				let url = $(this).attr('action');
+				let params = $(this).serialize();
+				// alert(params);
+				$.post(url, params).done(function(data) {
+					if (data.code == 100) {
+						location.href="/timeline/timeline_view"
+					}
+					alert(errorMessage);
+				}); // ajax끝
+				
+			}); //loginForm 끝
+		}); // ready끝
+	</script>
 	
 
 	
