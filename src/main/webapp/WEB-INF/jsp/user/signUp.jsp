@@ -92,10 +92,8 @@
 
 				// ajax 중복확인
 				$.ajax({
-					url : "is_duplicated_id",
-					data : {
-						"loginId" : loginId
-					},
+					url : "/user/is_duplicated_id",
+					data : {"loginId" : loginId},
 					success : function(data) {
 						if (data.result) {
 							// 중복이면
@@ -166,6 +164,11 @@
 				}); // ajax 끝
 
 			}); // 가입하기 버튼 끝
+			
+			$('#goSignInBtn').on('click', function(e) {
+				e.preventDefault();
+				location.href="/user/sign_in_view";
+			}); // 로그인 하러가기 버튼 끝
 		}); // ready끝
 			
 	</script>

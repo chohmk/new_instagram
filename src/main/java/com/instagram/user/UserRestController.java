@@ -13,6 +13,7 @@ import com.instagram.common.EncryptUtils;
 import com.instagram.user.bo.UserBO;
 
 @RestController
+@RequestMapping("/user")
 public class UserRestController {
 	@Autowired
 	private UserBO userBO;
@@ -22,7 +23,7 @@ public class UserRestController {
 	 * @param loginId
 	 * @return
 	 */
-	@RequestMapping("is_duplicated_id")
+	@RequestMapping("/is_duplicated_id")
 	public Map<String, Object> isDuplicatedId(
 			@RequestParam("loginId") String loginId) {
 		
@@ -46,7 +47,7 @@ public class UserRestController {
 	 * @param name
 	 * @return
 	 */
-	@PostMapping("sign_up") 
+	@PostMapping("/sign_up") 
 	public Map<String, Object> signUp(
 			@RequestParam("loginId") String loginId,
 			@RequestParam("password") String password,
