@@ -97,6 +97,12 @@
 				}); // ajax끝
 				
 			}); //loginForm 끝
+			
+			$('#goSignUpBtn').on('click', function(e) {
+				e.preventDefault();
+				
+				location.href="/user/sign_up_view";
+			});
 		}); // ready끝
 	</script>
 	

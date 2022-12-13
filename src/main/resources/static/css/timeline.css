@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#wrap {
+	width: 800px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.timeline-header {
+	width: 800px;
+	height: 110px;
+}
+.timeline-logo-img{
+	width: 280px;
+	height: 110px;
+}
+
+#logoutBtn{
+	margin-right: 10px;
+}
+
+.timline-section {
+	width: 800px;
+	height: 800px;
+}
