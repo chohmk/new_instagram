@@ -22,3 +22,7 @@
 	width: 800px;
 	height: 800px;
 }
+
+#writeTextArea {
+	height: 120px;
+}
